@@ -48,7 +48,7 @@ tblmastpar=read.csv("tblmastpar.csv",sep = '\t')
 tbllivpar=read.csv("tbllivpar.csv",sep = '\t')
 
 #####
-# 7 # somatometrika‘ (BCS, BW & Other Metrics)
+# 7 # somatometrika? (BCS, BW & Other Metrics)
 #####
 tblbody=read.csv("tblbody.csv",sep = '\t')
 
@@ -262,3 +262,5 @@ tblbas$Exam_D=dmy(tblbas$Exam_D)
 tblbas$Birth_D=dmy(tblbas$Birth_D)
 
 #tapply(tblmastdop$CowID,tblmastdop$measur,length)
+
+#auto einai to prvto arxeio pou tha anoiksei
